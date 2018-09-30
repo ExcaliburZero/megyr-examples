@@ -1,0 +1,24 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "e66faa6ad6f74e17f29795bdb2277bd90bace0567a6c1124e5d117ba21217f0f"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "6ca2256": {
+            "path": "./../../megyr"
+        }
+    },
+    "develop": {}
+}

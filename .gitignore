@@ -1,0 +1,13 @@
+# MESA files
+*/star
+*/README_first
+*/clean
+*/make/
+*/mk
+*/re
+*/rn
+*/src/
+
+# getting-started
+getting-started/completed_tasks.csv
+getting-started/out/

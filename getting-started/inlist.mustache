@@ -1,0 +1,24 @@
+&star_job
+
+  ! begin with a pre-main sequence model
+    create_pre_main_sequence_model = .true.
+
+/ !end of star_job namelist
+
+
+&controls
+
+  ! starting specifications
+    initial_mass = {{initial_mass}} ! in Msun units
+
+  ! stop at 2 Gyr
+    max_age = 2000000000
+
+  ! Output pulse files for GYRE
+    pulse_data_format = 'GYRE'
+    write_pulse_data_with_profile = .true.
+    add_center_point_to_pulse_data = .TRUE.
+    add_double_points_to_pulse_data = .TRUE.
+
+
+/ ! end of controls namelist
